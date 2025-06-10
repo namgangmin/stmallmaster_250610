@@ -18,6 +18,8 @@ public class DeliveryCompleted extends AbstractEvent {
     private Integer qty;
     private String address;
 
+    
+
     public DeliveryCompleted(Delivery aggregate) {
         super(aggregate);
     }
